@@ -1,0 +1,198 @@
+@font-face {
+    src: url(./fonts/Poppins-Light.ttf);
+    font-family: Poppins Light;
+}
+
+@font-face {
+    src: url(./fonts/Poppins-Regular.ttf);
+    font-family: Poppins Regular;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+h1#splash-text {
+    font-family: Poppins Regular;
+    color: rgb(41,48,50);
+    font-size: 45px;
+}
+
+h1#download-text {
+    font-family: Poppins Regular;
+    color: white;
+    font-size: 18px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+h2#splash-text-minor {
+    font-family: Poppins Light;
+    color: rgb(41,48,50);
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+img#download-svg {
+    max-height: 50%;
+    max-width: 50%;
+    margin-left: -18px;
+    margin-right: 10px;
+}
+
+div#banner {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    align-items: center;
+    -webkit-box-shadow: 3px 4px 20px -8px rgba(0,0,0,0.20);
+    -moz-box-shadow: 3px 4px 20px -8px rgba(0,0,0,0.20);
+    box-shadow: 3px 4px 20px -8px rgba(0,0,0,0.20);
+}
+
+div#banner > img {
+    max-width: 80%;
+    max-height: 80%;
+    -webkit-user-select: none;
+    user-select: none;
+    margin-left: 50px;
+}
+
+div#banner > a {
+    font-family: Poppins Regular;
+    font-size: 15px;
+    color: rgb(41,48,50);
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+div#lander {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(224, 231, 234);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div#lander > div {
+    display: flex;
+
+}
+
+div#lander-downloads {
+    margin: 10px;
+    height: 400px;
+    width: 400px;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+div#lander-image {
+    margin: 10px;
+    width: 600px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+div#download-now {
+    display: flex;
+    height: 45px;
+    width: 250px;
+    background-color: rgb(52, 114, 253);
+    border-radius: 25px;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+div#download-now:hover {
+    cursor: pointer;
+    background-color: rgb(47, 105, 230);
+}
+
+div#why {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+}
+
+a#download {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1038px){
+
+    h1#splash-text {
+        font-size: 25px;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    a#download {
+        align-self: center;
+        justify-self: center;
+    }
+
+    h2#splash-text-minor {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    div#lander {
+        height: 800px;
+    }
+    div#lander-downloads {
+        margin-top: 100px;
+        height: 200px;
+    }
+
+    div#lander-image {
+        margin-top: -20px;
+    }
+
+}
+
+@media only screen and (max-width: 812px){
+    h1#splash-text {
+        text-align: center;
+        margin-top: -20px;
+    }
+    a#download {
+        align-self: center;
+        justify-self: center;
+    }
+    div#lander {
+        height: 770px;
+    }
+    div#lander-downloads {
+        height: 200px;
+        margin-top: 100px; 
+    }
+
+    div#lander-image {
+        margin-top: -50px;
+    }
+
+    div#banner > img {
+        margin-left: 20px;
+    }
+
+}
