@@ -8,6 +8,24 @@
     font-family: Poppins Regular;
 }
 
+@keyframes lift{
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes drop{
+    from {
+        transform: scale(1.05);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
 html, body {
     margin: 0;
     height: 100%;
@@ -75,6 +93,23 @@ div#banner > a {
     color: rgb(41,48,50);
     text-decoration: none;
     margin-left: 25px;
+
+    animation: drop 0.5s;
+    -webkit-animation: drop 0.5s;
+    -moz-animation: drop 0.5s;
+    -ms-animation: drop 0.5s;
+    -o-animation: drop 0.5s;
+    backface-visibility: hidden;
+}
+
+div#banner > a:hover {
+    animation: lift 0.5s;
+    -webkit-animation: lift 0.5s;
+    -moz-animation: lift 0.5s;
+    -ms-animation: lift 0.5s;
+    -o-animation: lift 0.5s;
+    animation-fill-mode: forwards;
+    backface-visibility: hidden;
 }
 
 div#lander {
@@ -127,6 +162,14 @@ div#download-now:hover {
     background-color: rgb(47, 105, 230);
 }
 
+div#lander-downloads > p {
+    font-family: Poppins Light;
+    color: rgb(150, 150, 150);
+    font-size: 10px;
+    margin-left: 50px;
+    margin-top: 2px;
+}
+
 div#why {
     display: flex;
     height: 600px;
@@ -166,6 +209,11 @@ a#download {
 
     div#lander-image {
         margin-top: -20px;
+    }
+
+    div#lander-downloads > p {
+        text-align: center;
+        margin-left: 0px;
     }
 
 }
