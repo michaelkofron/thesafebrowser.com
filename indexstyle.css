@@ -30,6 +30,7 @@ html, body {
     margin: 0;
     height: 100%;
     width: 100%;
+    overflow-x: hidden; 
 }
 
 h1#splash-text {
@@ -281,6 +282,28 @@ div.inner-icon > img {
     margin-top: -50px;
 }
 
+div.inner-text {
+    display: flex;
+    height: 100%;
+    width: 375px;
+    flex-direction: column;
+}
+
+div.inner-text > h3 {
+    font-family: Poppins Regular;
+    color: rgb(41,48,50);
+    font-size: 17px; 
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+div.inner-text > h4 {
+    font-family: Poppins Light;
+    color: rgb(41,48,50);
+    font-size: 14px;
+    margin-top: 0px;
+}
+
 div#other {
     display: flex;
     height: 600px;
@@ -328,20 +351,44 @@ div#other {
     }
 
     div#why {
-        
+        height: 750px;
     }
     
     div#deserve {
-        
+        height: 50px;
+        width: 500px;
+        margin: 0px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    div#deserve > h1 {
+        font-size: 25px;
+    }
+    
+    div#deserve > h2 {
+        font-family: Poppins Light;
+        color: rgb(41,48,50);
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    
+    div#deserve > a {
+        font-family: Poppins Regular;
+        color: rgb(47, 105, 230);
+        text-decoration: none;
     }
     
     div#basics {
-        
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
     }
 
 }
 
-@media only screen and (max-width: 812px){
+@media only screen and (max-width: 767px){
     h1#splash-text {
         text-align: center;
         margin-top: -20px;
@@ -367,14 +414,47 @@ div#other {
     }
 
     div#why {
-        
+        height: 800px;
     }
     
     div#deserve {
-        
+        height: 200px;
+        width: 300px;
     }
     
     div#basics {
-        
+        height: 400px;
+        width: 450px;
+    }
+
+    div#basics-box {
+        height: 300px;
+        width: 350px;
+    }
+
+    div.inner-text {
+        display: flex;
+        height: 100%;
+        width: 295px;
+        flex-direction: column;
+    }
+
+    div.inner-icon {
+        width: 55px;
+    }
+    
+    div.inner-text > h3 {
+        font-family: Poppins Regular;
+        color: rgb(41,48,50);
+        font-size: 14px; 
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    div.inner-text > h4 {
+        font-family: Poppins Light;
+        color: rgb(41,48,50);
+        font-size: 12px;
+        margin-top: 0px;
     }
 }
