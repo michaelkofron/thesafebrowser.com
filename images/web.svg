@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <g/>
+  <g transform="matrix(8.342492, 0, 0, 8.342492, 50.514854, 44.39397)" style=""/>
+  <rect x="13.135" y="54.986" stroke-miterlimit="10" width="473.731" height="390.028" style="fill: rgba(47, 105, 230, 0.38); stroke-width: 15px; stroke: rgb(41, 48, 50);"/>
+  <line stroke-miterlimit="10" x1="13.135" y1="117.391" x2="486.865" y2="117.391" style="fill: rgba(47, 105, 230, 0.38); stroke-width: 15px; stroke: rgb(41, 48, 50);"/>
+  <line stroke-miterlimit="10" x1="81.902" y1="86.188" x2="51.338" y2="86.188" style="fill: rgba(47, 105, 230, 0.38); stroke-width: 15px; stroke: rgb(41, 48, 50);"/>
+  <line stroke-miterlimit="10" x1="143.029" y1="86.188" x2="112.465" y2="86.188" style="fill: rgba(47, 105, 230, 0.38); stroke-width: 15px; stroke: rgb(41, 48, 50);"/>
+  <line stroke-miterlimit="10" x1="204.155" y1="86.188" x2="173.591" y2="86.188" style="fill: rgba(47, 105, 230, 0.38); stroke-width: 15px; stroke: rgb(41, 48, 50);"/>
+  <line stroke-miterlimit="10" x1="51.338" y1="195.397" x2="257.641" y2="195.397" style="fill: rgba(47, 105, 230, 0.38); stroke-width: 15px; stroke: rgb(41, 48, 50);"/>
+  <line stroke-miterlimit="10" x1="51.338" y1="257.801" x2="257.641" y2="257.801" style="fill: rgba(47, 105, 230, 0.38); stroke-width: 15px; stroke: rgb(41, 48, 50);"/>
+  <line stroke-miterlimit="10" x1="51.338" y1="320.204" x2="257.641" y2="320.204" style="fill: rgba(47, 105, 230, 0.38); stroke-width: 15px; stroke: rgb(41, 48, 50);"/>
+  <rect x="295.843" y="195.397" stroke-miterlimit="10" width="145.176" height="124.809" style="stroke-width: 15px; stroke: rgb(41, 48, 50); fill: rgb(255, 211, 55);"/>
+</svg>
