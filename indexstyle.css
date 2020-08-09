@@ -102,6 +102,10 @@ div#banner > a {
     backface-visibility: hidden;
 }
 
+div#banner > a:visited {
+    color: rgb(41,48,50);
+}
+
 div#banner > a:hover {
     animation: lift 0.5s;
     -webkit-animation: lift 0.5s;
@@ -111,6 +115,8 @@ div#banner > a:hover {
     animation-fill-mode: forwards;
     backface-visibility: hidden;
 }
+
+
 
 div#lander {
     display: flex;
@@ -170,15 +176,70 @@ div#lander-downloads > p {
     margin-top: 2px;
 }
 
+a#download {
+    text-decoration: none;
+}
+
 div#why {
+    display: flex;
+    height: 550px;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div#deserve {
+    display: flex;
+    height: 350px;
+    width: 350px;
+    flex-direction: column;
+    margin-left: -25px;
+}
+
+div#deserve > h1 {
+    font-family: Poppins Regular;
+    color: rgb(41,48,50);
+    margin-bottom: 0px;
+}
+
+div#deserve > h2 {
+    font-family: Poppins Light;
+    color: rgb(41,48,50);
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+div#deserve > a {
+    font-family: Poppins Regular;
+    color: rgb(47, 105, 230);
+    text-decoration: none;
+}
+
+div#deserve > a:visited {
+    color: rgb(47, 105, 230);
+}
+
+div#benefits {
+    display: flex;
+    height: 500px;
+    width: 550px;
+    flex-direction: column;
+    background-color: blue;
+    margin-left: 150px;
+}
+
+div#other {
     display: flex;
     height: 600px;
     width: 100%;
+    background-color: rgb(224, 231, 234);
+    flex-direction: row;
     justify-content: center;
-}
-
-a#download {
-    text-decoration: none;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 @media only screen and (max-width: 1038px){
@@ -216,6 +277,18 @@ a#download {
         margin-left: 0px;
     }
 
+    div#why {
+        
+    }
+    
+    div#deserve {
+        
+    }
+    
+    div#benefits {
+        
+    }
+
 }
 
 @media only screen and (max-width: 812px){
@@ -236,11 +309,22 @@ a#download {
     }
 
     div#lander-image {
-        margin-top: -50px;
+        margin-top: -40px;
     }
 
     div#banner > img {
         margin-left: 20px;
     }
 
+    div#why {
+        
+    }
+    
+    div#deserve {
+        
+    }
+    
+    div#benefits {
+        
+    }
 }
