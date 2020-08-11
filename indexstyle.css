@@ -62,14 +62,6 @@ img {
     -moz-user-select: none;
 }
 
-picture {
-    max-width: 100%;
-    max-height: 100%;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-}
-
 img#download-svg {
     max-height: 50%;
     max-width: 50%;
@@ -405,6 +397,200 @@ div#customize-text > h2 {
     margin-top: 0px;
 }
 
+div#portal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+div#portal-image {
+    display: flex;
+    height: 75%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+div#portal-text {
+    display: flex;
+    height: 25%;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+div#portal-text > h1 {
+    font-family: Poppins Regular;
+    color: rgb(41,48,50);
+    margin: 0px;
+}
+
+div#portal-text > a {
+    font-family: Poppins Regular;
+    color: rgb(47, 105, 230);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+div#portal-text > a:visited {
+    color: rgb(47, 105, 230);
+}
+
+div#development {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(224, 231, 234);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div#development-text {
+    display: flex;
+    height: 350px;
+    width: 350px;
+    margin-right: 75px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div#development-text > h1 {
+    font-family: Poppins Regular;
+    color: rgb(41,48,50);
+    margin: 0px;
+}
+
+div#development-text > h2 {
+    font-family: Poppins Light;
+    color: rgb(41,48,50);
+    font-size: 18px;
+    margin-top: 0px;
+} 
+
+div#development-pic {
+    display: flex;
+    height: 350px;
+    width: 350px;
+    margin-left: 75px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    background-color: white;
+}
+
+div#development-pic > img {
+    max-width: 75%;
+    height: 75%;
+}
+
+div#membership {
+    display: flex;
+    height: 550px;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+}
+
+div#membership-text {
+    display: flex;
+    height: 125px;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div#membership-text > h1 {
+    font-family: Poppins Regular;
+    color: rgb(41,48,50);
+    margin: 0px;
+}
+
+div#membership-text > h2 {
+    font-family: Poppins Light;
+    color: rgb(41,48,50);
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+div#membership-box {
+    display: flex;
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("./images/memberbg.jpg");
+    border: 1px solid rgb(240,240,240);
+    -webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.5);
+}
+
+div#membership-box > h1 {
+    font-family: Poppins Regular;
+    color: rgb(74, 196, 74);
+    margin: 0px;
+}
+
+.check-box {
+    display: flex;
+    width: 100%;
+    height: 65%;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    font-family: Poppins Light;
+    margin-top: -5px;
+}
+
+ul {
+    margin-top: 5px;
+    margin-left: -30px;
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓ ';
+    color: rgb(56, 175, 88);
+    font-size: 20px;
+}
+
+div#member-card-dl {
+    display: flex ;
+    height: 40px;
+    width: 180px;
+    border-radius: 25px;
+    background-color: rgb(52, 114, 253);
+    justify-content: center;
+    align-items: center;
+}
+
+div#member-card-dl > h3 {
+    font-family: Poppins Light;
+    color: white;
+    font-size: 18px;
+}
+
+div#member-card-dl:hover {
+    cursor: pointer;
+    background-color: rgb(47, 105, 230);
+}
+
 @media only screen and (max-width: 1075px){
 
     h1#splash-text {
@@ -527,6 +713,57 @@ div#customize-text > h2 {
         font-size: 15px;
     }
 
+    div#development {
+        height: 500px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div#development-text {
+        margin: 0px;
+        text-align: center;
+        width: 80%;
+        height: 200px;
+    }
+
+    div#development-pic {
+        margin: 0;
+        height: 250px;
+        width: 250px;
+    }
+
+    div#development-text > h1 {
+        font-size: 25px;
+    }
+    
+    div#development-text > h2 {
+        font-size: 15px;
+    } 
+
+    div#portal-text > h1 {
+        font-size: 25px;
+    }
+
+    div#portal-text > a {
+        font-size: 15px;
+    }
+
+    div#membership-text > h1 {
+        font-size: 25px;
+    }
+    
+    div#membership-text > h2 {
+        font-size: 15px;
+    }
+
+    div#membership-box {
+
+        height: 350px;
+        width: 300px;
+
+    }
+
 }
 
 @media only screen and (max-width: 767px){
@@ -636,6 +873,31 @@ div#customize-text > h2 {
     div#customize {
         height: 500px;
     }
+
+    div#development {
+        height: 525px;
+    }
+
+    div#development-text {
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    div#portal-image {
+        height: 70%
+    }
+
+    div#portal-text {
+        height: 30%;
+    }
+
+    div#portal {
+        height: 450px;
+    }
+
+    div#membership-text {
+        height: 175px;
+    }
 }
 
 @media only screen and (max-width: 345px){
@@ -654,5 +916,13 @@ div#customize-text > h2 {
 
     div#banner > img {
         margin-left: 5px;
+    }
+
+    div#portal-image {
+        height: 60%
+    }
+
+    div#portal-text {
+        height: 40%;
     }
 }
