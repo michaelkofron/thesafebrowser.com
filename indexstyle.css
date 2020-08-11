@@ -545,12 +545,21 @@ div#membership-box > h1 {
     margin: 0px;
 }
 
+div#membership-box > h2 {
+    font-family: Poppins Light;
+    color: rgb(41,48,50);
+    font-size: 18px;
+    margin: 0px;
+}
+
 .check-box {
     display: flex;
     width: 100%;
     height: 65%;
     justify-content: center;
     align-items: center;
+    margin: 0px;
+    margin-top: -20px;
 }
 
 li {
@@ -578,6 +587,7 @@ div#member-card-dl {
     background-color: rgb(52, 114, 253);
     justify-content: center;
     align-items: center;
+    margin-top: -20px;
 }
 
 div#member-card-dl > h3 {
@@ -589,6 +599,15 @@ div#member-card-dl > h3 {
 div#member-card-dl:hover {
     cursor: pointer;
     background-color: rgb(47, 105, 230);
+}
+
+div#see-why {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 231, 234);
 }
 
 @media only screen and (max-width: 1075px){
