@@ -31,6 +31,8 @@ html, body {
     height: 100%;
     width: 100%;
     overflow-x: hidden; 
+    background-color: rgb(224, 231, 234);
+    scroll-behavior: smooth;
 }
 
 h1#splash-text {
@@ -88,6 +90,10 @@ div#banner > img {
     user-select: none;
     -moz-user-select: none;
     margin-left: 50px;
+}
+
+div#banner > img:hover {
+    cursor: pointer;
 }
 
 div#banner > a {
@@ -491,7 +497,7 @@ div#development-pic > img {
     height: 75%;
 }
 
-div#membership {
+div#pricing {
     display: flex;
     height: 550px;
     width: 100%;
@@ -601,13 +607,42 @@ div#member-card-dl:hover {
     background-color: rgb(47, 105, 230);
 }
 
-div#see-why {
+div#foot {
     display: flex;
-    height: 300px;
+    height: 200px;
     width: 100%;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: rgb(224, 231, 234);
+}
+
+div#foot > h1 {
+    font-family: Poppins Regular;
+    color: rgb(41,48,50);
+    margin: 0px;
+}
+
+div#foot > h2 {
+    font-family: Poppins Regular;
+    color: rgb(47, 105, 230);
+    font-size: 25px;
+}
+
+div#last {
+    display: flex;
+    height: 20px;
+    width: 100%;
+    background-color: rgb(224, 231, 234);
+    align-items: center;
+    justify-content: center;
+}
+
+div#last > a {
+    color: rgb(41,48,50);
+    font-family: Poppins Light;
+    text-decoration: none;
+    margin-right: 20px;
 }
 
 @media only screen and (max-width: 1075px){
@@ -917,6 +952,12 @@ div#see-why {
     div#membership-text {
         height: 175px;
     }
+
+    div#foot > h2 {
+        font-family: Poppins Regular;
+        color: rgb(47, 105, 230);
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width: 345px){
@@ -943,5 +984,9 @@ div#see-why {
 
     div#portal-text {
         height: 40%;
+    }
+
+    div#last > a {
+        font-size: 12px;
     }
 }
