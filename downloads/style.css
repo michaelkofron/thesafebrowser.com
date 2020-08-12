@@ -35,6 +35,18 @@ html, body {
     scroll-behavior: smooth;
 }
 
+a#guides {
+    font-family: Poppins Light;
+    color: rgb(47, 105, 230);
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+a#guides:visited {
+    color: rgb(47, 105, 230)
+}
+
 img {
     max-width: 50%;
     max-height: 50%;
@@ -134,7 +146,7 @@ div#last > a {
 
 div#main {
     display: flex;
-    height: 800px;
+    height: 1000px;
     width: 100%;
     background-color: white;
     flex-direction: column;
@@ -157,7 +169,7 @@ div#inner > h1 {
 
 div#inner > h2 {
     margin: 0px;
-    color: rgb(245, 100, 100);
+    color: rgb(47, 105, 230);
     font-family: Poppins Light;
     font-size: 12px;
 }
@@ -199,6 +211,10 @@ div.download:hover {
     transform: scale(1.05);
 }
 
+div.download:active {
+    cursor: default;
+}
+
 div.download > h2 {
     font-family: Poppins Light;
     color: rgb(175, 181, 184);
@@ -226,7 +242,7 @@ div.download > h2 {
     }
 
     div#main {
-        height: 650px;
+        height: 700px;
     }
 
 }
@@ -260,7 +276,7 @@ div.download > h2 {
     }
 
     div#main {
-        height: 550px;
+        height: 600px;
     }
 }
 
