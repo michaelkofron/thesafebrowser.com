@@ -36,13 +36,13 @@ html, body {
 }
 
 h1#splash-text {
-    font-family: Poppins Regular;
+    font-family: "Poppins Regular";
     color: rgb(41,48,50);
     font-size: 45px;
 }
 
 h1#download-text {
-    font-family: Poppins Regular;
+    font-family: "Poppins Regular";
     color: white;
     font-size: 18px;
     user-select: none;
@@ -50,7 +50,7 @@ h1#download-text {
 }
 
 h2#splash-text-minor {
-    font-family: Poppins Light;
+    font-family: "Poppins Light";
     color: rgb(41,48,50);
     font-size: 20px;
     margin-top: -20px;
@@ -97,7 +97,7 @@ div#banner > img:hover {
 }
 
 div#banner > a {
-    font-family: Poppins Regular;
+    font-family: "Poppins Regular";
     font-size: 15px;
     color: rgb(41,48,50);
     text-decoration: none;
@@ -178,7 +178,7 @@ div#download-now:hover {
 }
 
 div#lander-downloads > p {
-    font-family: Poppins Light;
+    font-family: 'Poppins Light';
     color: rgb(150, 150, 150);
     font-size: 10px;
     margin-left: 50px;
@@ -209,20 +209,20 @@ div#deserve {
 }
 
 div#deserve > h1 {
-    font-family: Poppins Regular;
+    font-family: 'Poppins Regular';
     color: rgb(41,48,50);
     margin-bottom: 0px;
 }
 
 div#deserve > h2 {
-    font-family: Poppins Light;
+    font-family: 'Poppins Light';
     color: rgb(41,48,50);
     font-size: 18px;
     margin-top: 0px;
 }
 
 div#deserve > a {
-    font-family: Poppins Regular;
+    font-family: 'Poppins Regular';
     color: rgb(47, 105, 230);
     text-decoration: none;
 }
@@ -241,7 +241,7 @@ div#basics {
 }
 
 div#basics > h1 {
-    font-family: Poppins Regular;
+    font-family: 'Poppins Regular';
     color: rgb(47, 105, 230);
     margin: 0px;
     font-size: 25px;
@@ -296,7 +296,7 @@ div.inner-text {
 }
 
 div.inner-text > h3 {
-    font-family: Poppins Regular;
+    font-family: 'Poppins Regular';
     color: rgb(41,48,50);
     font-size: 17px; 
     margin-top: 20px;
@@ -304,7 +304,7 @@ div.inner-text > h3 {
 }
 
 div.inner-text > h4 {
-    font-family: Poppins Light;
+    font-family: 'Poppins Light';
     color: rgb(41,48,50);
     font-size: 14px;
     margin-top: 0px;
@@ -347,13 +347,13 @@ div#ad-text {
 }
 
 div#ad-text > h1 {
-    font-family: Poppins Regular;
+    font-family: 'Poppins Regular';
     color: rgb(41,48,50);
     margin: 0px;
 }
 
 div#ad-text > h2 {
-    font-family: Poppins Light;
+    font-family: 'Poppins Light';
     color: rgb(41,48,50);
     font-size: 18px;
     margin-top: 0px;
@@ -390,13 +390,13 @@ div#customize-text {
 }
 
 div#customize-text > h1 {
-    font-family: Poppins Regular;
+    font-family: 'Poppins Regular';
     color: rgb(41,48,50);
     margin: 0px;
 }
 
 div#customize-text > h2 {
-    font-family: Poppins Light;
+    font-family: 'Poppins Light';
     color: rgb(41,48,50);
     font-size: 18px;
     margin-top: 0px;
@@ -431,13 +431,13 @@ div#portal-text {
 }
 
 div#portal-text > h1 {
-    font-family: Poppins Regular;
+    font-family: 'Poppins Regular';
     color: rgb(41,48,50);
     margin: 0px;
 }
 
 div#portal-text > a {
-    font-family: Poppins Regular;
+    font-family: 'Poppins Regular';
     color: rgb(47, 105, 230);
     font-size: 18px;
     text-decoration: none;
@@ -468,13 +468,13 @@ div#development-text {
 }
 
 div#development-text > h1 {
-    font-family: Poppins Regular;
+    font-family: 'Poppins Regular';
     color: rgb(41,48,50);
     margin: 0px;
 }
 
 div#development-text > h2 {
-    font-family: Poppins Light;
+    font-family: 'Poppins Light';
     color: rgb(41,48,50);
     font-size: 18px;
     margin-top: 0px;
@@ -516,13 +516,13 @@ div#membership-text {
 }
 
 div#membership-text > h1 {
-    font-family: Poppins Regular;
+    font-family: 'Poppins Regular';
     color: rgb(41,48,50);
     margin: 0px;
 }
 
 div#membership-text > h2 {
-    font-family: Poppins Light;
+    font-family: 'Poppins Light';
     color: rgb(41,48,50);
     font-size: 18px;
     margin-top: 0px;
@@ -545,13 +545,13 @@ div#membership-box {
 }
 
 div#membership-box > h1 {
-    font-family: Poppins Regular;
+    font-family: 'Poppins Regular';
     color: rgb(74, 196, 74);
     margin: 0px;
 }
 
 div#membership-box > h2 {
-    font-family: Poppins Light;
+    font-family: 'Poppins Light';
     color: rgb(41,48,50);
     font-size: 18px;
     margin: 0px;
@@ -568,7 +568,7 @@ div#membership-box > h2 {
 }
 
 li {
-    font-family: Poppins Light;
+    font-family: 'Poppins Light';
     margin-top: -5px;
 }
 
@@ -596,7 +596,7 @@ div#member-card-dl {
 }
 
 div#member-card-dl > h3 {
-    font-family: Poppins Light;
+    font-family: 'Poppins Light';
     color: white;
     font-size: 18px;
 }
@@ -617,13 +617,13 @@ div#foot {
 }
 
 div#foot > h1 {
-    font-family: Poppins Regular;
+    font-family: 'Poppins Regular';
     color: rgb(41,48,50);
     margin: 0px;
 }
 
 div#foot > h2 {
-    font-family: Poppins Regular;
+    font-family: 'Poppins Regular';
     color: rgb(47, 105, 230);
     font-size: 25px;
 }
@@ -639,7 +639,7 @@ div#last {
 
 div#last > a {
     color: rgb(41,48,50);
-    font-family: Poppins Light;
+    font-family: 'Poppins Light';
     text-decoration: none;
     margin-right: 20px;
 }
@@ -696,14 +696,14 @@ div#last > a {
     }
     
     div#deserve > h2 {
-        font-family: Poppins Light;
+        font-family: 'Poppins Light';
         color: rgb(41,48,50);
         font-size: 15px;
         margin-top: 0px;
     }
     
     div#deserve > a {
-        font-family: Poppins Regular;
+        font-family: 'Poppins Regular';
         color: rgb(47, 105, 230);
         text-decoration: none;
     }
@@ -875,7 +875,7 @@ div#last > a {
     }
     
     div.inner-text > h3 {
-        font-family: Poppins Regular;
+        font-family: 'Poppins Regular';
         color: rgb(41,48,50);
         font-size: 14px; 
         margin-top: 10px;
@@ -883,7 +883,7 @@ div#last > a {
     }
     
     div.inner-text > h4 {
-        font-family: Poppins Light;
+        font-family: 'Poppins Light';
         color: rgb(41,48,50);
         font-size: 12px;
         margin-top: 0px;
@@ -953,7 +953,7 @@ div#last > a {
     }
 
     div#foot > h2 {
-        font-family: Poppins Regular;
+        font-family: 'Poppins Regular';
         color: rgb(47, 105, 230);
         font-size: 20px;
     }
