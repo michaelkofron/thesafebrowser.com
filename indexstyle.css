@@ -321,44 +321,6 @@ div#ad-blocker {
     flex-wrap: wrap;
 }
 
-div#ad-pic {
-    display: flex;
-    height: 350px;
-    width: 350px;
-    margin-right: 75px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25%;
-    background-color: white;
-}
-
-div#ad-pic > img {
-    max-width: 75%;
-    height: 75%;
-}
-
-div#ad-text {
-    display: flex;
-    height: 350px;
-    width: 350px;
-    margin-left: 75px;
-    justify-content: center;
-    flex-direction: column;
-}
-
-div#ad-text > h1 {
-    font-family: 'Poppins Regular';
-    color: rgb(41,48,50);
-    margin: 0px;
-}
-
-div#ad-text > h2 {
-    font-family: 'Poppins Light';
-    color: rgb(41,48,50);
-    font-size: 18px;
-    margin-top: 0px;
-}
-
 div#customize {
     display: flex;
     height: 650px;
@@ -434,6 +396,7 @@ div#portal-text > h1 {
     font-family: 'Poppins Regular';
     color: rgb(41,48,50);
     margin: 0px;
+    margin-top: -10px;
 }
 
 div#portal-text > a {
@@ -715,34 +678,6 @@ div#last > a {
         margin: 0px;
     }
 
-    div#ad-blocker {
-        height: 500px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    div#ad-pic {
-        margin: 0px;
-        height: 250px;
-        width: 250px;
-    }
-
-    div#ad-text {
-        height: 200px;
-        width: 525px;
-        margin: 0px;
-        text-align: center;
-    }
-    
-    div#ad-text > h1 {
-        font-size: 25px;
-    }
-    
-    div#ad-text > h2 {
-        font-size: 15px;
-    }
-
     img#to-remove {
         display: none;
     }
@@ -782,6 +717,8 @@ div#last > a {
 
     div#development-pic {
         margin: 0;
+        margin-top: -10px;
+        margin-bottom: 5px;
         height: 250px;
         width: 250px;
     }
