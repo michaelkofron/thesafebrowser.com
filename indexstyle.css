@@ -335,6 +335,7 @@ div#ad-pic {
 div#ad-pic > img {
     max-width: 75%;
     height: 75%;
+    margin-left: 35px;
 }
 
 div#ad-text {
@@ -859,7 +860,7 @@ div#last > a {
     }
 
     div#basics-box {
-        height: 300px;
+        height: 325px;
         width: 350px;
     }
 
