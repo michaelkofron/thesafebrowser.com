@@ -607,6 +607,10 @@ div#last > a {
     margin-right: 20px;
 }
 
+a#learnmore {
+    margin-top: -10px;
+}
+
 @media only screen and (max-width: 1075px){
 
     h1#splash-text {
